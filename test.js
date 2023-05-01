@@ -71,6 +71,13 @@ checkoutBook()
 // 5. Create a function returnBook that takes a book title as an argument and changes the
 // book's isAvailable property to true. If the book is not found in the library, the function
 // should return a message indicating that the book does not belong to the library.
- function returnBook(name){
- 
+ function returnBook(){
+ for(i=0;i<=books.length;i++){
+    if(i.title<=1){
+        i.isAvailable=true
+    }
+    else{
+        console.log("The book is not in the library")
+    }
+ }
  }
